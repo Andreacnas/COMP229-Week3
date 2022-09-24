@@ -1,6 +1,6 @@
 //Index Routes
 import { Router } from 'express';
-import { helloWorld } from '../controllers.index.controller.server.js'
+import { helloWorld } from '../controllers/index.controller.server.js'
 
 //Instatiate the router
 const router = Router();
