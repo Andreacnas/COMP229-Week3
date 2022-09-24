@@ -7,8 +7,8 @@ export function displayAboutPage(req,res,next){
     res.render('index', { title: 'About', page: 'about' });
 };
 
-export function displayProjectPage(req,res,next){
-    res.render('index', { title: 'Project', page: 'project' });
+export function displayProjectsPage(req,res,next){
+    res.render('index', { title: 'Projects', page: 'projects' });
 };
 
 export function displayServicesPage(req,res,next){
@@ -16,5 +16,5 @@ export function displayServicesPage(req,res,next){
 };
 
 export function displayContactPage(req,res,next){
-    res.render('index', { title: 'Contactt', page: 'contact' });
+    res.render('index', { title: 'Contact', page: 'contact' });
 };
