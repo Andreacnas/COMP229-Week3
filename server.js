@@ -31,7 +31,7 @@ app.use(session({
 }));
 
 //Use my Routes
-app.use('/',helloWorld);
+app.use('/',indexRouter);
 
 //Run app
 app.listen(3000);
