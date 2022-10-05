@@ -1,6 +1,6 @@
 //Index Controller
 export function displayHomePage(req,res,next){
-    res.render('index', { title: 'Home', page: 'home' });
+    res.render('index', { title: 'Hello! Welcome to my Webpage', page: 'home' });
 };
 
 export function displayAboutPage(req,res,next){
