@@ -4,21 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/contact.css" />
+
     <title>Contact</title>
 </head>
-<body>
-    <h1><%= title %></h1>
+<body>    
+    <!-- main container -->
+    <main class="main-container">
+    <section class="section-container">
+        <h1 class="title"><%= title %></h1>  
+        <p class="para">Use the form below, or email me to 
+            <a href="mailto:andreacnas@gmail.com? subject=subject text" class="link-email"> andreacnas@gmail.com</a></p>
 
-    <h2>Contact Me using the form, or email me to andreacnas@gmail.com</h2>
-    <form action="">
-        <label for="name">Name:</label>
-        <input type="text" autofocus="true" placeholder="Enter your name" required>
-        <label for="email">Email Address:</label>
-        <input type="email" placeholder="Enter your email address" required>
-        <label for="message">Message:</label>
-        <textarea placeholder="Enter your message" required></textarea>
-        <input type="submit" value="Submit">
-    </form>
-    
+        <!-- contact me form -->    
+        <form>
+            <label class="label-form" for="name">First Name:</label><br>
+            <input class="input-form" type="text" autofocus="true" placeholder="Enter your first name" required><br>
+            <label class="label-form" for="name">Last Name:</label><br>
+            <input class="input-form" type="text" autofocus="true" placeholder="Enter your last name"><br>
+            <label class="label-form" for="email">Email Address:</label><br>
+            <input class="input-form" type="email" placeholder="Enter your email address" required><br>
+            <label class="label-form" for="message">Message:</label><br>
+            <textarea class="text-area-form" placeholder="Enter your message" required></textarea><br>
+            <input  class="btn-submit" type="submit" value="Send Message" onclick="clickSubmit()">
+        </form>
+    </section>    
+
+    <!-- avatar carroussel -->
+     <img name="slide" class="avatar-slide" alt="Avatar"> 
+    </main> 
+   
+
+    <script src="./scripts/contact.js"></script>
 </body>
 </html>

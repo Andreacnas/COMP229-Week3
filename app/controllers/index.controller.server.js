@@ -16,5 +16,5 @@ export function displayServicesPage(req,res,next){
 };
 
 export function displayContactPage(req,res,next){
-    res.render('index', { title: "Let's talk", page: 'contact' });
+    res.render('index', { title: "Let's talk.", page: 'contact' });
 };
