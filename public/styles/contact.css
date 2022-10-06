@@ -75,11 +75,11 @@ body {
 }
 
 /* Submit button */
-.btn-submit {
+/* .btn-submit {
     outline: none;
     border: 0;
     background-color: white;
-}
+} */
 
 .btn-submit {
     color: #ffffff;
