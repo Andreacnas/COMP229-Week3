@@ -52,7 +52,22 @@ function slideImg(){
 
 window.onload = slideImg;
 
-//Redirect to Home page
+//Button to save info
 function clickSend(){
+    //Prevent to refresh the webpage
+    event.preventDefault();   
+
+    //Create an myData object
+    const myData = {};
+
+    //Store variables inside myData object
+    myData.firstName = document.getElementById("firstName").value;
+    myData.lastName = document.getElementById("lastName").value;
+    myData.emailAddress = document.getElementById("emailAddress").value;
+    myData.userMessage = document.getElementById("userMessage").value;
+
+    //console.log(myData);
+
+    //Redirect to home page
     window.location.href="./home"
 }
