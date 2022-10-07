@@ -4,22 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project</title>
+
+   <!-- CSS -->
+   <link rel="stylesheet" href="./styles/projects.css" />
+    <title>Projects</title>
  </head>
  <body>
-    <h1><%= title %></h1>
 
-    <h2>Website Development</h2>
-    <p>Creation of Vincent Van-Dog website using HTML, CSS, and JavaScript.</p>
-    <img src="./content/images/Project1_1.png" alt="Van-Dog project website">
-    <img src="./content/images/Project1_2.png" alt="Van-Dog project website">
-    <img src="./content/images/Project1_3.png" alt="Van-Dog project website">
+    <h1 class="title"><%= title %></h1>
 
-    <h3>GUI application</h3>
-    <p>Database connection with CRUD operations using Java.</p>
+    <!-- main container -->
+    <main class="main-container">
+      <!-- section project 1 -->
+      <section class="projects-container">
+         <h2 class="desc-title">Artist Vincent Van-Dog Website</h2>
+         <p class="para">Website development using HTML, CSS, JavaScript, and GitHub.</p>
+         <a href="./content/images/Project1.png">
+            <img class="img-project img-1" src="./content/images/Project1.png" alt="Van-Dog project website">  
+         </a>
+      </section>   
 
-    <h4>Menu-driven applications</h4>
-    <p>Data structures and design patterns approach in C#.Net.</p>
+      <!-- section project 2 -->
+      <section class="projects-container">
+         <h3 class="desc-title">Customer Management GUI application</h3>
+         <p class="para">Database and Object Oriented programming with JDBC and Java.</p>
+         <a href="./content/images/Project2.png">
+            <img class="img-project img-2" src="./content/images/Project2.png" alt="Customer Management GUI application">
+         </a>
+      </section>
+      
+      <!-- section project 3 -->
+      <section class="projects-container">
+         <h4 class="desc-title">Menu-driven Travel Agency application</h4>
+         <p class="para">Data Structures & Design Patterns using CRUD operations in C#.</p>
+         <a href="./content/images/Project3_1.jpg">
+            <img class="img-project img-3" src="./content/images/Project3.png" alt="Menu-driven app">
+         </a>
+      </section>   
+   </main>
 
  </body>
  </html>
