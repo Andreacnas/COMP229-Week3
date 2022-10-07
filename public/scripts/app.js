@@ -9,11 +9,12 @@
         console.log('App Started');        
     }
 
-    window.addEventListener('load', Start);
+    window.addEventListener('load', Start);//adds start function to the window interface
 })();
 
 //***** HOME PAGE *****
 //Redirect to about page
+//Works with input submit (button)
 function clickAbout(){
     window.location.href="./about"
 }
