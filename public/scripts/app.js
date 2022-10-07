@@ -67,7 +67,9 @@ function clickSend(){
     myData.emailAddress = document.getElementById("emailAddress").value;
     myData.userMessage = document.getElementById("userMessage").value;
 
-    console.log(myData);
+    alert("Message sent succesfully!");
+
+    //console.log(myData);
 
     //Redirect to home page
     window.location.href="./home"
