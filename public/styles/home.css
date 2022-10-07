@@ -1,4 +1,4 @@
-/* About CSS file
+/* Home CSS file
 Name: Andrea Cavalcanti Nascimento
 Student Number: 301250129
 Date: Oct 7th, 2022 */
@@ -69,7 +69,7 @@ body {
 .learn{
     font-size: 25px;
     font-weight: bold;
-    /* color: #5C2E7E */
+    color: #5C2E7E;
 }
 
 .btn-about {
