@@ -74,13 +74,6 @@ body {
     margin-bottom: 10px;
 }
 
-/* Submit button */
-/* .btn-submit {
-    outline: none;
-    border: 0;
-    background-color: white;
-} */
-
 .btn-submit {
     color: #ffffff;
     background-color: #4C6793;
@@ -91,6 +84,12 @@ body {
     border-style: none;
     box-sizing: border-box;
     padding: 20px 32px;
+}
+
+.btn-submit:hover,
+.btn-submit:focus {
+    background-color: #82a9e7;
+    transform: scale(1.1);
 }
 
 /* Avatar Carrousel */

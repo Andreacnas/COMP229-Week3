@@ -101,6 +101,12 @@ body {
     margin-bottom: 30px;
 }
 
+.btn-resume:hover,
+.btn-resume:focus {
+    background-color: #1381a5;
+    transform: scale(1.1);
+}
+
 /* Contact button */
 .btn-contact {
     color: #ffffff;
@@ -112,4 +118,10 @@ body {
     border-style: none;
     box-sizing: border-box;
     padding: 20px 27px;
+}
+
+.btn-contact:hover,
+.btn-contact:focus {
+    background-color: #82a9e7;
+    transform: scale(1.1);
 }
