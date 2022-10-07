@@ -26,9 +26,9 @@ function clickContact(){
 
 //***** CONTACT PAGE *****
 //Carroussel
-var i = 0; 
-var images = [];
-var time = 1000;
+let i = 0; 
+let images = [];
+let time = 1000;
 
 //Image List
 images[0] = './content/images/Avatar1.png';
@@ -40,7 +40,7 @@ images[2] = './content/images/Avatar3.png';
 function slideImg(){
     document.slide.src = images[i];
 
-    if (i< images.length - 1) {
+    if (i< images.length - 1) {//array size from 0 to 2
         i++;
     } else {
         i =0;
@@ -50,6 +50,7 @@ function slideImg(){
 
 }
 
+//load function
 window.onload = slideImg;
 
 //Button to save info
