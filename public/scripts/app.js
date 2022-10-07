@@ -26,9 +26,9 @@ function clickContact(){
 
 //***** CONTACT PAGE *****
 //Carroussel
-let i = 0; 
-let images = [];
-let time = 1000;
+var i = 0; 
+var images = [];
+var time = 1000;
 
 //Image List
 images[0] = './content/images/Avatar1.png';
@@ -67,7 +67,7 @@ function clickSend(){
     myData.emailAddress = document.getElementById("emailAddress").value;
     myData.userMessage = document.getElementById("userMessage").value;
 
-    //console.log(myData);
+    console.log(myData);
 
     //Redirect to home page
     window.location.href="./home"
