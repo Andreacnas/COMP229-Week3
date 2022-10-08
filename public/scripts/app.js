@@ -32,9 +32,9 @@ var images = [];
 var time = 1000;
 
 //Image List
-images[0] = './content/images/Avatar1.png';
-images[1] = './content/images/Avatar2.png';
-images[2] = './content/images/Avatar3.png';
+images[0] = './content/images/Avatar01.png';
+images[1] = './content/images/Avatar02.png';
+images[2] = './content/images/Avata03.png';
 
 
 //Slideshow
