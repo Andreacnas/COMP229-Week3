@@ -34,7 +34,7 @@ var time = 1000;
 //Image List
 images[0] = './content/images/Avatar01.png';
 images[1] = './content/images/Avatar02.png';
-images[2] = './content/images/Avata03.png';
+images[2] = './content/images/Avatar03.png';
 
 
 //Slideshow
